@@ -30,96 +30,88 @@
   </a>
 </div>
 
-<div class="container-float text-center phrase">
-
-  <i>" A gente limpa você curte"</i><br />
-  <span>Limpa Liogo.</span>
-</div>
-
-
-<div class="row text-center" style="height:300px;">
-    <div class="col-md-8" style="background:#fcfcfe;">
-        <p>Pecisa de um serviço de limpeza prático, qualificado e confiável? Chama a Limpa Logo. 👊 - Limpeza geral
-          Você pode alugar toalhas, lençóis, travesseiros e muito mais. Tudo bem limpinho.
-           Consulte os preços e itens disponíveis e levamos tudo até você em sacolas higienizadas com todo o cuidado e segurança.
-
-- Limpeza pós-obra
-- Serviço de check-in e check-out
-- Aluguel de enxoval
-- Lavagem de roupas.</p>
-    </div>
-  <div class="col-md-4 text-center back" >
-  </div>
+<div class="container-float text-center citacao">
+  <i>" A gente limpa você curte "</i><br />
+  <span>Limpa Logo.</span>
 </div>
 
 
 <h1>O que nos fazemos</h1>
-<div class="container-float row text-center" style="min-height:400px;">
-  <div class="col-md-6" style="background: #267E92;">
-    <div class="row" style="min-height: 300px;margin-top:50px;">
-      <div class="col-md-6" style="background: #267E92;">
-        <span class="material-icons">local_laundry_service</span>
-        <p  class="container" style="width:15em">
-          Lavagem de roupas
-        </p>
-      </div>
-      <div class="col-md-6" style="background: #267E92">
-        <span class="material-icons">engineering</span>
-        <p  class="container" style="width:15em">Limpeza pós obras</p>
-      </div>
-  </div>
-  </div>
-  <div class="col-md-6" style="background: #A8D5D2;">
-    <div class="row" style="min-height: 300px;margin-top:50px;">
+<div class="row text-center" style="height:300px;">
+    <div class="col-md-8" style="background:#fcfcfe;">
+        <p>
+        Pecisa de um serviço de limpeza prático, qualificado e confiável? Chama a Limpa Logo. 👊
+        Atuamos no Porto das Dunas e no cumbuco. Nossa especialidade é limpeza de apartamntos de veraneio.
+        Vinhemos para simplificar a sua vida, com limpeza rápida e sobre demanda, podemos economizar
+        tempo e dinheiro.Com pacotes mensais, conseguimos atender apartamntos destinados a locação de temporada,
+        hoteis e famílias com alta demanda.
 
-      <div class="col-md-6 " style="background: #A8D5D2;">
-        <span class="material-icons">clean_hands</span>
-        <br>
-        <p  class="container" style="width:15em">
+        </p>
+    </div>
+  <div class="col-md-4 text-center" >
+  </div>
+</div>
+
+<h1>Serviços</h1>
+<div class="container-float row text-center">
+  <div class="col-md-6 direito" >
+    <div class="row">
+      <div class="col-md-6">
+        <span class="material-icons md-60 esquerdo">clean_hands</span>
+        <p  class="container">
           Serviço de limpeza de apartamentos contando com uma equipe qualificada e disposta.
         </p>
       </div>
+      <div class="col-md-6">
+        <span class="material-icons md-60 esquerdo">engineering</span>
+        <p  class="container">Limpeza pós obras</p>
+      </div>
+  </div>
+  </div>
+  <div class="col-md-6 esquerdo">
+    <div class="row">
+      <div class="col-md-6 ">
+        <span class="material-icons md-60 direito">local_laundry_service</span>
+        <br>
+        <p  class="container">
+          Lavagem de roupas
+        </p>
+      </div>
 
-      <div class="col-md-6" style="background: #A8D5D2">
-        <br>
-        <span class="material-icons">checkroom</span>
-        <br>
-        <p  class="container" style="width:15em">
+      <div class="col-md-6">
+        <span class="material-icons md-60 direito">checkroom</span>
+        <p  class="container">
           Aluguel de enxoval de roupas a preços acessíveis.</p>
       </div>
   </div>
   </div>
 </div>
 
-<div class="container-float text-center row" style="background:popper;min-height:200px;padding-top:2%;padding-bottom:2%;">
+<div class="container-float text-center row" >
   <div class="col-sm-3">
   </div>
-  <div class="col-sm-2">
-    <span class="material-icons">
-location_on
-</span>
-    <!-- <img src="midias/imagens/map.png"> -->
-    <h3>Endereço</h3>
-    <p> Av. Oceano Indico, 255  Porto das Dunas, Aquiraz</p>
-  </div>
-  <div class="col-sm-2" style="border-left: solid grey 0.5px;border-right: solid grey 0.5px;">
-    <span class="material-icons">call</span>
-    <h3>Telefone</h3>
 
-    <a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5585999912017" target="_blank">
-        		(85) 9 9991-2017</a>
+  <div class="col-sm-2">
+    <span class="material-icons md-48 direito">location_on</span>
+    <h3>Endereço</h3>
+    <p> Av. Oceano Índico, 255  Porto das Dunas, Aquiraz</p>
+  </div>
+
+  <div class="col-sm-2">
+    <span class="material-icons md-48 direito">call</span>
+    <h3>Telefone</h3>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5585999912017">(85) 9 9991-2017</a>
   </div>
   <div class="col-sm-2">
-    <span class="material-icons">alternate_email</span>
+    <span class="material-icons md-48 direito">alternate_email</span>
     <h3>Email</h3>
     <p>contato@limpalogo.com.br</p>
   </div>
   <div class="col-sm-3">
   </div>
 </div>
-<div class="container-float" style="min-height:50px;background:grey;">
+
 </div>
-  </div>
 </template>
 
 <script>
@@ -132,36 +124,45 @@ export default {
 }
 </script>
 
-<style scoped>
-/* Make the image fully responsive */
+<style>
+.row{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .carousel-inner img{
     width: 100%;
     height: 100%;
 }
-.back{
-/* background-image: url("midias/imagens/football.png")  no-repeat center center scroll; */
-position: relative;
-display: table;
-width: 100%;
-height: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-
-}
-
-.phrase{
+.citacao{
     padding-top: 2.5%;
     background: white;
     min-height:200px;
 }
-p{
-  padding: 0%;
-}
 
-h2{
-  font-family:Arial;
+a{
+  color: black;
+  text-decoration: none;
 }
+.col-md-6.esquerdo{
+  background: #A8D5D2;
+}
+.col-md-6.direito{
+  background: #267E92;
+}
+.material-icons.md-60 {
+   font-size: 60px;
+}
+.material-icons.md-48 {
+   font-size: 48px;
+}
+.material-icons.direito {
+   color: #267E92;
+ }
+ .material-icons.esquerdo{
+   color: #a8d5d2;
+
+ }
+
 
 </style>
