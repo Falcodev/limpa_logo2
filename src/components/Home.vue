@@ -1,41 +1,8 @@
 <template>
-  <div class="hello">
-    <div id="demo" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner container-float">
-    <div class="carousel-item active">
-      <img  src="./a2.png" alt="Chicago"  >
-    </div>
-    <div class="carousel-item">
-      <img  src="./b.png" alt="Chicago">
-    </div>
-    <div class="carousel-item">
-      <img  src="./c2.png" alt="Chicago">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
+<div>
+<div class="hero">
+  <i>A gente limpa você curte.</i><br />
 </div>
-
-<div class="container-float text-center citacao">
-  <i>" A gente limpa você curte "</i><br />
-  <span>Limpa Logo.</span>
-</div>
-
-<h1 >O que nos fazemos</h1>
 
 
 <div class="container-float row text-center">
@@ -43,6 +10,8 @@
   <img  src="./Limpa_logo.png" alt="Limpa Logo" height="270px" >
   </div>
     <div class="col-md-7">
+      <h1 >O que nos fazemos</h1>
+      <br>
         <p>
         Pecisa de um serviço de limpeza prático, qualificado e confiável? Chama a Limpa Logo. 👊
         Atuamos no Porto das Dunas e no cumbuco. Nossa especialidade é limpeza de apartamntos de veraneio.
@@ -56,14 +25,12 @@
   </div>
 </div>
 
+<div class="servicos">
+  <h1>Serviços</h1>
+</div>
 
-<div class=" row text-center">
-<h2>Serviço</h2>
-<div class="col-md-6 direito" id="a"></div>
-<div class="col-md-6 esquerdo" id="a"></div>
 
-      </div>
-<div class=" row text-center">
+<div class=" row text-center" id='teste'>
   <div class="col-md-6 direito" >
 
     <div class="row">
@@ -71,15 +38,16 @@
         <span class="material-icons md-60 esquerdo">clean_hands</span>
         <h5>Limpeza de Apartamentos </h5>
         <p  class="container">
-          Contamos com uma grande equipe qualificada,ágil e disposta.
+          Contamos com uma grande equipe qualificada, ágil e disposta.
         </p>
       </div>
       <div class="col-md-6">
         <span class="material-icons md-60 esquerdo">engineering</span>
         <h5>Limpeza pós obras </h5>
         <p  class="container">
-        Uma limpeza mais intensa, com materias apropriados para a situação.
+        Uma limpeza mais intensa, com materias apropriados para cada situação.
         </p>
+
       </div>
   </div>
   </div>
@@ -104,8 +72,19 @@
   </div>
   </div>
 </div>
+<!-- <div class="row instagram">
+<div class="col-sm-4">
+<h1>Já conferiu nosso instagram ?</h1>
+</div>
+<div class="col-sm-8 text-center">
+  <img src="./12.png" alt="Instagram" id="instagram">
+<h6>@limaplogo</h6>
+</div>
 
-<div class="container-float text-center row" id="footer1" >
+
+</div> -->
+
+<div class="container-float  row" id="footer1" >
   <div class="col-sm-3"></div>
   <div class="col-sm-2">
     <span class="material-icons md-48 direito">location_on</span>
@@ -126,6 +105,7 @@
   <div class="col-sm-3"></div>
 </div>
 <div class="footer">
+  <a href="https://www.instagram.com/limpalogo/" id="insta"><img  src="./insta.png" alt="Limpa Logo" height="20px"></a>
   <a href="https://www.falcodev.com.br/#/">Falco desenvolvimento de websites.</a>
 </div>
 </div>
@@ -143,34 +123,49 @@ export default {
 
 <style>
 a {
-  color: #e6e6e6;
+  font-family: times;
+  color: #292929;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #eee;
+  color: #ddd;
   text-decoration: none;
   cursor: pointer;
 }
 p{
-  margin-top: auto;
-  margin-bottom: auto;
+  font-family:times;
+  color: #292929;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-.row{
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
+.hero{
+  background-image:url('c3.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  overflow:hidden;
+  position: static;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.carousel-inner {
-    max-width: 100%;
-    }
-.carousel-inner img{
-    object-fit:cover;
-    max-width: 100%;
-    height: 600px;
+
+.row{
+
+  background-color: none;
+  width: 100%;
+  max-height: 600px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+margin: auto;
+}
+.servicos{
+  text-align: center;
 }
 .citacao{
     padding-top: 2.5%;
@@ -178,10 +173,10 @@ p{
     min-height:200px;
 }
 .col-md-6.esquerdo{
-  background: #A8D5D2;
+  background-color: #A8D5D2;
 }
 .col-md-6.direito{
-  background: #206975;
+  background-color: #206975;
 }
 .material-icons.md-60 {
    font-size: 60px;
@@ -193,17 +188,32 @@ p{
    color: #206975;
  }
  .material-icons.esquerdo{
+
    color: #a8d5d2;
  }
  .limpa_logo_logo{
+
    float: right;
    max-height: 250px;
    max-width: 100px;
  }
  .footer{
+   padding-top: 20px;
+   padding-bottom: 20px;
    text-align: center;
-   background-color: #1a1a1a;
+   background-color: #292929;
    color: #ddd;
+ }
+ .footer span{
+   text-align: center;
+   color: white;
+ }
+ .footer a{
+   position: absolute;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   right:3%;
+   color: #5c5c5c;
  }
  h2{
    width: 100%;
@@ -211,8 +221,33 @@ p{
    margin-top: 0px;
    z-index: 1;
  }
- #a{
-   height: 30px;
+ h1{
+   text-align: center;
+ }
+ i{
+text-align: center;
+ }
+ .container-float .text-center .row{
+ }
+ .col-sm-2{
+   width: auto;
+   height: 100%;
+  }
+#teste{
+  height: 100%;
+  align-items: baseline;
+}
+ #insta{
+   position: static;
+   text-align: center;
    }
+  #footer1{
+    align-items: baseline;
+    text-align: center;
+    background-image:url('11-3.png');
+    background-size: cover;
+    background-position: center;
+  }
+
 
 </style>
