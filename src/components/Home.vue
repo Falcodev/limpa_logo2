@@ -106,7 +106,7 @@
 </div>
 <div class="footer">
   <a href="https://www.instagram.com/limpalogo/" id="insta"><img  src="./insta.png" alt="Limpa Logo" height="20px"></a>
-  <a href="https://www.falcodev.com.br/#/">Falco desenvolvimento de websites.</a>
+  <a id='falco' href="https://www.falcodev.com.br/#/">Falco desenvolvimento de websites.</a>
 </div>
 </div>
 </template>
@@ -156,13 +156,12 @@ p{
 }
 
 .row{
-
   background-color: none;
   width: 100%;
   max-height: 600px;
   padding-top: 30px;
   padding-bottom: 0px;
-margin: auto;
+  margin: auto;
 }
 .servicos{
   text-align: center;
@@ -198,29 +197,19 @@ margin: auto;
    max-width: 100px;
  }
  .footer{
+   display:grid;
    padding-top: 20px;
    padding-bottom: 20px;
-   text-align: center;
    background-color: #292929;
+   text-align:center;
    color: #ddd;
  }
- .footer span{
-   text-align: center;
-   color: white;
+ .footer img{
+
+ margin-left: auto;
+ margin-right:auto;
  }
- .footer a{
-   position: absolute;
-   margin-top: 10px;
-   margin-bottom: 0px;
-   right:3%;
-   color: #5c5c5c;
- }
- h2{
-   width: 100%;
-   position: absolute;
-   margin-top: 0px;
-   z-index: 1;
- }
+
  h1{
    text-align: center;
  }
@@ -233,9 +222,9 @@ text-align: center;
    width: auto;
    height: 100%;
   }
-#teste{
-  height: 100%;
-  align-items: baseline;
+#falco{
+  text-align:right;
+  color:blue;
 }
  #insta{
    position: static;
