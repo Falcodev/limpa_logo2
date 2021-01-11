@@ -224,7 +224,7 @@ text-align: center;
   }
 #falco{
   text-align:right;
-  color:blue;
+  color:#ddd;
 }
  #insta{
    position: static;
