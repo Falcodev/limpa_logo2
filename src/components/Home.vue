@@ -30,7 +30,7 @@
 </div>
 
 
-<div class=" row text-center" id='teste'>
+<div class=" row text-center">
   <div class="col-md-6 direito" >
 
     <div class="row">
@@ -156,9 +156,9 @@ p{
 }
 
 .row{
+  position: relative;
   background-color: none;
   width: 100%;
-  max-height: 600px;
   padding-top: 30px;
   padding-bottom: 0px;
   margin: auto;
@@ -197,11 +197,12 @@ p{
    max-width: 100px;
  }
  .footer{
-   display:grid;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
    padding-top: 20px;
    padding-bottom: 20px;
    background-color: #292929;
-   text-align:center;
    color: #ddd;
  }
  .footer img{
@@ -217,21 +218,29 @@ p{
 text-align: center;
  }
  .container-float .text-center .row{
+
  }
  .col-sm-2{
    width: auto;
    height: 100%;
   }
 #falco{
+  display: none;
+  position: absolute;
+  border-bottom: 0px;
+  border-right: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
   text-align:right;
   color:#ddd;
 }
  #insta{
-   position: static;
+   position: relative;
    text-align: center;
    }
   #footer1{
-    align-items: baseline;
+    position: relative;
+    /* align-items: baseline; */
     text-align: center;
     background-image:url('11-3.png');
     background-size: cover;
